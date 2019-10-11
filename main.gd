@@ -17,4 +17,4 @@ func show_time_bonus(pos):
 			my_effect = effect.instance()
 			add_child(my_effect)
 			my_effect.position = pos
-			my_effect.setup(pos.x + pos.y)	
+			my_effect.setup(int(pos.x + pos.y)/100)
